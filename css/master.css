@@ -22,6 +22,10 @@ ul {
   padding: 0;
 }
 
+table td {
+  padding-right: 30px;
+}
+
 .btn {
   font-size: 1.5em;
   padding: 15px 25px;
@@ -280,32 +284,6 @@ ul.tm-list-plus li:before {
 
 .p-basic-contact p{
   font-size: 14px;
-}
-
-#pOpenTime h5{
-  text-align: center;
-}
-
-#pOpenTime p{
-  margin-bottom: 0;
-}
-
-.p-days p {
-  text-align: right;
-}
-
-@media (max-width: 760px) {
-  .p-basic-contact{
-    text-align: center;
-  }
-
-  .#pOpenTime h5{
-    text-align: left;
-  }
-
-  .p-days p {
-    text-align: left;
-  }
 }
 /* end Basic contact */
 
