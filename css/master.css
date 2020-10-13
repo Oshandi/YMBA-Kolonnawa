@@ -41,6 +41,7 @@ table td {
 	background-color: #e47833;
 	border: none;
 }
+
 /* end General styles */
 
 /* Main styles */
@@ -117,16 +118,6 @@ table td {
 /* Colors */
 .p-text-secondary { color: #893532; }
 .p-bg-primary { background-color: #EBDBB2; }
-.p-bg-gradient {
-  background: linear-gradient(
-    135deg,
-    #a0c0c0 0%,
-    #669999 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-.p-bg-black-transparent {
-  background-color: rgba(15, 29, 32, 0.6);
-  color: white;
 }
 /* end Colors */
 
@@ -225,12 +216,12 @@ table td {
   }
 }
 
-ul.tm-list-plus li {
+ul.p-list-plus li {
   list-style: none;
   margin-bottom: 12px;
 }
 
-ul.tm-list-plus li:before {
+ul.p-list-plus li:before {
   content: "+";
   margin-right: 10px;
 }
@@ -278,8 +269,6 @@ ul.tm-list-plus li:before {
 /* Basic contact */
 .p-basic-contact {
   padding: 50px;
-  background-color:#EBDBB2 ;
-  color:#893532;
 }
 
 .p-basic-contact p{
@@ -298,3 +287,54 @@ ul.tm-list-plus li:before {
 
 }
 /* end Page Footer */
+
+/* About */
+.tabs { list-style: none; }
+
+.tabs > li > a {
+  border: 2px solid #cfd0d1;
+  color: #2e3131;
+  padding: 20px 25px;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+.p-tab-icon {
+  background-color: #EBDBB2;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.tabs > li > a.active .p-tab-icon,
+.tabs > li > a:hover .p-tab-icon {
+  background-color: #893532;
+}
+
+.p-about-service {
+  max-width: 400px;
+}
+
+@media (max-width: 767px) {
+  .p-about-service { margin-bottom: 50px; }
+}
+
+.p-about-service p {
+  font-size: 13px;
+}
+
+.p-donation-box{
+  padding: 10px;
+  border: 1px solid #cfd0d1;
+  font-size: 13px;
+}
+
+.p-donations {
+  font-size: 13px;
+}
+
+/* end About */
