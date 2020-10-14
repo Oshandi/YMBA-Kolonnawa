@@ -268,6 +268,8 @@ ul.p-list-plus li:before {
 
 /* Basic contact */
 .p-basic-contact {
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 50px;
 }
 
