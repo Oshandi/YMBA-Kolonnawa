@@ -277,8 +277,10 @@ ul.p-list-plus li:before {
   padding: 50px;
 }
 
+.p-basic-contact td,
 .p-basic-contact p{
-  font-size: 14px;
+  font-size: 13px;
+  color: #893532;
 }
 /* end Basic contact */
 
@@ -304,6 +306,10 @@ ul.p-list-plus li:before {
   display: block;
   max-width: 300px;
   margin: 0 auto 30px;
+}
+
+.tabs > li > a > span{
+  margin-left: 40px;
 }
 
 .p-tab-icon {
@@ -516,3 +522,23 @@ figure.effect-bubba:hover p {
   }
 }
 /* end Gallery */
+
+/* Contact */
+.p-commitee-members td{
+  padding: 10px 50px;
+}
+
+@media (max-width: 980px) {
+  .p-commitee-members td {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .p-commitee-members td {
+    padding: 10px 5px;
+  }
+}
+
+
+/* end Contact */
