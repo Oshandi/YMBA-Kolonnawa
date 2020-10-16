@@ -112,7 +112,7 @@ table td {
 
 .p-bg-black-transparent {
   background-color: rgba(15, 29, 32, 0.6) !important;
-  color: #eee !important;
+  color: #cfd0d1 !important;
 }
 /* end Colors */
 
@@ -397,7 +397,7 @@ ul.p-list-plus li:before {
 
 .p-gallery-item figure figcaption {
 	padding: 1em;
-	color: #eee;
+	color: #cfd0d1;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -440,7 +440,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 figure.effect-bubba figcaption::before,
@@ -457,15 +457,15 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	border-top: 2px solid #cfd0d1;
+	border-bottom: 2px solid #cfd0d1;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 2px solid #fff;
-	border-left: 2px solid #fff;
+	border-right: 2px solid #cfd0d1;
+	border-left: 2px solid #cfd0d1;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
@@ -562,8 +562,8 @@ input[type=submit]{
 
 input[type=submit]:hover {
   background-color: #893532;
-  border: 2px solid #eee;
-  color:#eee;
+  border: 2px solid #cfd0d1;
+  color:#cfd0d1;
 }
 
 #formStatus {
