@@ -30,16 +30,7 @@ table td {
   font-size: 1.5em;
   padding: 15px 25px;
   border-radius: 0;
-}
-
-.btn-primary {
-  background-color: #e47833;
-  border: none;
-}
-
-.btn-secondary {
-	background-color: #e47833;
-	border: none;
+  border:2px solid #893532;
 }
 
 /* end General styles */
@@ -280,6 +271,10 @@ ul.p-list-plus li:before {
 .p-basic-contact td,
 .p-basic-contact p{
   font-size: 13px;
+  color: #893532;
+}
+
+.p-social a {
   color: #893532;
 }
 /* end Basic contact */
@@ -540,5 +535,44 @@ figure.effect-bubba:hover p {
   }
 }
 
+/*form*/
+.form-control:focus {
+  border-color: #999;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 0 transparent;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 0 transparent;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 0 transparent;
+}
+
+.p-contact-form textarea, .p-contact-form input {
+  border-color: #999;
+  margin-bottom: 2em;
+  border-radius: 0;
+  outline: none;
+  width:90%;
+}
+
+input[type=submit]{
+  background-color: #fff;
+  border: 2px solid #893532;
+  color: #893532;
+  font-weight: 600;
+  outline: none;
+  width:150px;
+}
+
+input[type=submit]:hover {
+  background-color: #893532;
+  border: 2px solid #eee;
+  color:#eee;
+}
+
+#formStatus {
+  margin-top: 2em;
+  box-shadow: none !important;
+  background: transparent;
+  border-radius: 0;
+  border:none;
+  outline: none;
+}
 
 /* end Contact */
