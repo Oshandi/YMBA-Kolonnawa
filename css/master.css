@@ -274,7 +274,8 @@ ul.p-list-plus li:before {
   color: #893532;
 }
 
-.p-social a {
+.p-social a,
+.p-social a:hover{
   color: #893532;
 }
 /* end Basic contact */
@@ -285,9 +286,13 @@ ul.p-list-plus li:before {
   text-align: center;
 }
 
+.p-copyright-text a,
+.p-copyright-text a:hover {
+  color: #893532;
+}
+
 .p-page-footer {
   padding-top: 50px;
-
 }
 /* end Page Footer */
 
