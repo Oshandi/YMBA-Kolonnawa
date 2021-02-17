@@ -104,6 +104,14 @@
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(document).ready(function() {
+            $(".nav li").removeClass("active");
+            $('#home').addClass('active');
+        })
+    })
+    </script>
     <script src="js/scripts.js"></script>
 
 </body>

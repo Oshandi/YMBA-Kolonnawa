@@ -221,7 +221,11 @@
                                 <!-- Location -->
                                 <div class="col-lg-6 col-md-12">
                                     <h3 class="p-text-secondary p-mb-5">Location</h3>
-                                    <div id="map"></div>
+                                    <div class='media-container'>
+                                        <div class='embed-responsive embed-responsive-4by3'><iframe
+                                                src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/v4/embeds/gm.php?map=NIlErC2mZW'
+                                                frameborder='0' class='uwpgmap'></iframe></div>
+                                    </div>
                                 </div>
 
                                 <!-- Contact form -->
@@ -262,6 +266,12 @@
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".nav li").removeClass("active");
+        $('#contact').addClass('active');
+    })
+    </script>
     <script src="js/scripts.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>

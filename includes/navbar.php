@@ -16,28 +16,28 @@
                  </button>
 
                  <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav ml-auto mr-0">
-                         <li class="nav-item active">
+                     <ul class="navbar-nav ymba-nav ml-auto mr-0">
+                         <li class="nav-item" id="home">
                              <div class="p-nav-link-highlight"></div>
-                             <a id="#home" class="nav-link" href="index.php">Home</a>
+                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                          </li>
-                         <li class="nav-item">
+                         <li class="nav-item" id="about">
                              <div class="p-nav-link-highlight"></div>
-                             <a id="#about" class="nav-link" href="about.php">About</a>
+                             <a class="nav-link" href="about.php">About</a>
                          </li>
-                         <li class="nav-item">
+                         <li class="nav-item" id="events">
                              <div class="p-nav-link-highlight"></div>
                              <a class="nav-link" href="events.php">Events</a>
                          </li>
-                         <li class="nav-item">
+                         <li class="nav-item" id="suwasetha">
                              <div class="p-nav-link-highlight"></div>
                              <a class="nav-link" href="suwasetha.php">Suwasetha</a>
                          </li>
-                         <li class="nav-item">
+                         <li class="nav-item" id="gallery">
                              <div class="p-nav-link-highlight"></div>
                              <a class="nav-link" href="gallery.php">Gallery</a>
                          </li>
-                         <li class="nav-item">
+                         <li class="nav-item" id="contact">
                              <div class="p-nav-link-highlight"></div>
                              <a class="nav-link" href="contact.php">Contact</a>
                          </li>

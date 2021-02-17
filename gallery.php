@@ -213,6 +213,14 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/gallery.js"></script>
 
+    <script>
+    $(document).ready(function() {
+        $(".nav li").removeClass("active");
+        $('#gallery').addClass('active');
+    })
+    </script>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
